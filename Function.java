@@ -1,7 +1,6 @@
 
 /**
- * Write a description of interface Function here.
- * 
+ * Interfaces for different mathematical functions, such as Sine* 
  * @author (Michael Holloway) 
  * @version (3/4/2013)
  */

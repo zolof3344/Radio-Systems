@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class CSVWriter here.
+ * Writer of CSV files
  * 
  * @author (your name) 
  * @version (a version number or a date)
@@ -20,7 +20,7 @@ public class CSVWriter implements DataProcessor
    
    LookupTable lt=new LookupTable();
    PrintWriter printer=null;
-   PrintWriter poop=null;
+   PrintWriter po=null;
    /**
     * Constructs the CSV writer to print to a csv file
     */
@@ -45,6 +45,6 @@ public class CSVWriter implements DataProcessor
      */
      public void finish()
      { printer.close();
-       poop.close();
+       po.close();
      }
    }

@@ -1,7 +1,6 @@
 package edu.utc.MichaelHolloway;
 /**
- * Write a description of interface DataProcessor here.
- * 
+ *interface for different objects that process data * 
  * @author (your name) 
  * @version (a version number or a date)
  */

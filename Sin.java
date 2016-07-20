@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class Sin here.
+ * A way to implement sine in order to get the y values for a given x
  * 
  * @author (your name) 
  * @version (a version number or a date)

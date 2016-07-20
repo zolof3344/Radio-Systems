@@ -1,7 +1,6 @@
 
 /**
- * Write a description of class SwingPlotter here.
- * 
+ * Should plot functions on the screen * 
  * @author (your name) 
  * @version (a version number or a date)
  */

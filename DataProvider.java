@@ -1,6 +1,6 @@
 package edu.utc.MichaelHolloway;
 /**
- * Write a description of interface DataProvider here.
+ * Interface for something that sends data
  * 
  * @author (your name) 
  * @version (a version number or a date)

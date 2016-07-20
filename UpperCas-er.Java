@@ -1,5 +1,5 @@
 /**
- * Write a description of class UpperCaser here.
+ * Takes a file and makes it an uppercase version
  * 
  * @author Michael Holloway 
  * @version 1.0

@@ -1,6 +1,6 @@
 package edu.utc.MichaelHolloway;
 /**
- * Write a description of class LookupTable here.
+ * Code for a Lookup Table
  * 
  * @author (your name) 
  * @version (a version number or a date)

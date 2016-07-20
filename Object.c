@@ -1,3 +1,9 @@
+/* One possible approach to building objects (data + methods) in C using macros.
+   Michael Holloway Based on object.c by Dr. Tanis
+   2/11/16
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,6 +18,9 @@ typedef struct student
 {
     int age;
     char* name;
+    
+   // void (*setValue)(struct student*,int);
+  //  int (*getValue)(struct student*);
     void (*printName)(struct student*); //print out the name of the student
     void (*setName)(struct student*);   // Set the name of teh studnet
 
@@ -24,7 +33,7 @@ void student_setName(student* this, char* name)
 void student_printName(student* this)
 {  
 
-   printf("Your name is %s\n Your Age is %d\n",this->name,this->age);
+   printf("%s\n",this->name);
   // free(this->name); This was the source of that error!
     
 }
@@ -52,7 +61,7 @@ int main(int argc, char *argv[])
     /* this macro expansion declares struct myStydebt in the current scope, and
      * calls the constructor associated with the class */
 
-    NEW(student,myStudent,"michael",21);
+    NEW(student,myStudent,"michael",20);
 
 
     /* see, it's a real data structure with a size... */
